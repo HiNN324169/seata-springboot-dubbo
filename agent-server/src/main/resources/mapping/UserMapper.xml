@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.nn.agent.mapper.AgentMapper">
+    <resultMap id="BaseResultMap" type="com.nn.agent.empty.Agent">
+        <id column="id" jdbcType="INTEGER" property="id"/>
+        <result column="uname" jdbcType="VARCHAR" property="name"/>
+        <result column="money" jdbcType="INTEGER" property="money"/>
+    </resultMap>
+    <sql id="Base_Column_List">
+        id, uname, money
+    </sql>
+    <update id="addMoney" parameterType="java.lang.Integer">
+        UPDATE `agent` SET money = money + #{money,jdbcType=INTEGER} WHERE uname = 'DL'
+    </update>
+
+
+</mapper>

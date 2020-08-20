@@ -1,0 +1,32 @@
+server:
+  port: 8888
+dubbo:
+  protocol:
+    name: dubbo
+    port: 20880
+  registry:
+    address: zookeeper://192.168.182.141:2181 # zookeeper ¡¥Ω”µÿ÷∑
+  application:
+    name: user-server
+mybatis:
+  mapper-locations: classpath:mapping/*Mapper.xml
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: root
+    url: jdbc:mysql://192.168.182.141:3306/seata?useUnicode=true&characterEncoding=utf-8&useSSL=true&serverTimezone=UTC
+seata:
+  enabled: true
+  application-id: user-server-seata
+  tx-service-group: user-server-tx-group
+  enable-auto-data-source-proxy: true
+  service:
+    vgroup-mapping:
+      user-server-tx-group: default
+    grouplist:
+      default: 127.0.0.1:8091
+  config:
+    type: file
+  registry:
+    type: file
