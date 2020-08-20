@@ -1,7 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c0ca539d-1e17-4dec-b806-9b417439a988" name="Default Changelist" comment="" />
+    <list default="true" id="c0ca539d-1e17-4dec-b806-9b417439a988" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/agent-server/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/agent-server/target/classes/com/nn/agent/AgentServerApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/agent-server/target/classes/com/nn/agent/config/SeataConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/agent-server/target/classes/com/nn/agent/empty/Agent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/agent-server/target/classes/com/nn/agent/mapper/AgentMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/agent-server/target/classes/com/nn/agent/service/AgentService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/agent-server/target/classes/mapping/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/agent-server/target/test-classes/com/nn/agent/AgentServerApplicationTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-interfaces/target/classes/com/nn/interf/AgentInterface.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-interfaces/target/classes/com/nn/interf/UserInterface.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-interfaces/target/dubbo-interfaces-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-interfaces/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-interfaces/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-interfaces/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo-interfaces/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-server/target/classes/META-INF/user-server.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-server/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-server/target/classes/com/nn/user/UserServerApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-server/target/classes/com/nn/user/empty/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-server/target/classes/com/nn/user/mapper/UserMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-server/target/classes/com/nn/user/service/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-server/target/classes/mapping/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-server/target/test-classes/com/nn/user/UserServerApplicationTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -64,12 +89,14 @@
     <option name="showModules" value="false" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -158,12 +185,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1597746399814</updated>
-      <workItem from="1597746403732" duration="30776000" />
+      <workItem from="1597746403732" duration="31182000" />
     </task>
+    <task id="LOCAL-00001" summary="springboot dubbo 整合 seata">
+      <created>1597949421703</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1597949421703</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="springboot dubbo 整合 seata" />
+    <option name="LAST_COMMIT_MESSAGE" value="springboot dubbo 整合 seata" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="199" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597823030299">
@@ -174,14 +213,18 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="765" y="250" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080/1920.0.1366.768@0.0.1920.1080" timestamp="1597823912128" />
-    <state x="459" y="134" key="CommitChangelistDialog2" timestamp="1597949307181">
+    <state x="459" y="134" key="CommitChangelistDialog2" timestamp="1597949408278">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="459" y="134" key="CommitChangelistDialog2/0.0.1920.1080/1920.0.1366.768@0.0.1920.1080" timestamp="1597949307181" />
-    <state x="740" y="281" key="FileChooserDialogImpl" timestamp="1597949053947">
+    <state x="459" y="134" key="CommitChangelistDialog2/0.0.1920.1080/1920.0.1366.768@0.0.1920.1080" timestamp="1597949408278" />
+    <state x="158" y="175" width="1552" height="866" key="DiffContextDialog" timestamp="1597949828850">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="740" y="281" key="FileChooserDialogImpl/0.0.1920.1080/1920.0.1366.768@0.0.1920.1080" timestamp="1597949053947" />
+    <state x="158" y="175" width="1552" height="866" key="DiffContextDialog/0.0.1920.1080/1920.0.1366.768@0.0.1920.1080" timestamp="1597949828850" />
+    <state x="740" y="281" key="FileChooserDialogImpl" timestamp="1597949922354">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="740" y="281" key="FileChooserDialogImpl/0.0.1920.1080/1920.0.1366.768@0.0.1920.1080" timestamp="1597949922354" />
     <state width="1877" height="88" key="GridCell.Tab.0.bottom" timestamp="1597948780559">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -242,6 +285,14 @@
     </state>
     <state width="1877" height="718" key="GridCell.Tab.2.right/0.0.1920.1080/1920.0.1366.768@0.0.1920.1080" timestamp="1597946249030" />
     <state width="1323" height="264" key="GridCell.Tab.2.right/0.0.1920.1080/1920.0.1366.768@1920.0.1366.768" timestamp="1597941510304" />
+    <state x="552" y="273" key="Vcs.Push.Dialog.v2" timestamp="1597949902698">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="552" y="273" key="Vcs.Push.Dialog.v2/0.0.1920.1080/1920.0.1366.768@0.0.1920.1080" timestamp="1597949902698" />
+    <state x="620" y="331" key="git4idea.merge.GitPullDialog" timestamp="1597949695368">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="620" y="331" key="git4idea.merge.GitPullDialog/0.0.1920.1080/1920.0.1366.768@0.0.1920.1080" timestamp="1597949695368" />
     <state x="334" y="235" key="new project wizard" timestamp="1597749160684">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
